@@ -1,6 +1,10 @@
 body {
-    color: darkblue;
+    color: rgb(0, 0, 0);
     font-size: 4.5rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular',Geneva, Verdana, sans-serif;
-    font-variant: small-caps;
+}
+
+img {
+    width:1000px;
+    height:150px;
 }
