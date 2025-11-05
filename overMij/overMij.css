@@ -4,7 +4,33 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular',Geneva, Verdana, sans-serif;
 }
 
-img {
-    width:1000px;
-    height:150px;
+#Introductie {
+    border: 20px solid rgb(80, 156, 255);      
+    background-color: #bde7fffd;   
+    padding: 10px;               
+    margin: 15px;              
 }
+#Favouriete_gerecht {
+    border: 20px solid rgb(80, 156, 255);      
+    background-color: #bde7fffd;   
+    padding: 10px;               
+    margin: 15px;              
+}
+
+#Lijst {
+    border: 20px solid rgb(80, 156, 255);      
+    background-color: #bde7fffd;   
+    padding: 10px;               
+    margin: 15px;       
+    padding-left: 40px;       
+}
+
+
+#Talen {
+    border: 20px solid rgb(80, 156, 255);      
+    background-color: #bde7fffd;   
+    padding: 10px;               
+    margin: 15px;              
+}
+         
+
