@@ -1,4 +1,84 @@
-.container {
-    box-sizing: border-box;
+.oswald  {
+  font-family: 'Oswald', Arial, sans-serif;
 }
 
+
+body {
+  font-family: 'Noto Sans', Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #252525;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2em;
+}
+
+header p {
+  font-size: 0.9em;
+  color: #cce0ff;
+}
+
+
+.container {
+  max-width: 850px;
+  margin: 30px auto;
+  background-color: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+.header-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+
+p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.opening {
+  margin-bottom: 35px;
+}
+
+.opening h2 {
+  font-family: "Momo Trust Display", sans-serif;
+  color: #004d99;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #004d99;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.scroll-box {
+  width: 300px;
+  height: 200px;          
+  overflow-y: scroll;    
+  border: 1px solid #ccc;
+  padding: 10px;
+}
