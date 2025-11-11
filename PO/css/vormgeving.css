@@ -2,18 +2,26 @@
   font-family: 'Oswald', Arial, sans-serif;
 }
 
+.Knight_1 {
+}
+
+.Knight_2 {
+
+}
 
 body {
   font-family: 'Noto Sans', Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  color: #333;
-  background-color: #f9f9f9;
+  color: #ffffff;
+  background-color: #494949;
 }
 
+
+
 header {
-  background-color: #252525;
+  background-color: #343434;
   color: white;
   padding: 30px 20px;
   text-align: center;
@@ -27,14 +35,14 @@ header h1 {
 
 header p {
   font-size: 0.9em;
-  color: #cce0ff;
+  color: #ffffff;
 }
 
 
 .container {
   max-width: 850px;
   margin: 30px auto;
-  background-color: white;
+  background-color: #413e3e;
   padding: 25px;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -60,12 +68,12 @@ p {
 
 .opening h2 {
   font-family: "Momo Trust Display", sans-serif;
-  color: #004d99;
+  color: #ffffff;
   margin-bottom: 10px;
 }
 
 a {
-  color: #004d99;
+  color: #ffffff;
   text-decoration: none;
   font-weight: bold;
 }
