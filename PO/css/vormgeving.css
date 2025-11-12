@@ -28,6 +28,11 @@ header {
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
+.menu {
+  position: absolute;
+  
+}
+
 header h1 {
   margin: 0;
   font-size: 2.2em;
@@ -64,12 +69,20 @@ p {
 
 .opening {
   margin-bottom: 35px;
+  height: 300px;;
 }
 
 .opening h2 {
   font-family: "Momo Trust Display", sans-serif;
   color: #ffffff;
   margin-bottom: 10px;
+}
+
+.Chess {
+    width: 300px;
+    height: auto;
+    float: right;
+    margin-left: 20px;
 }
 
 a {
