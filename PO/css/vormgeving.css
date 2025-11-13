@@ -2,7 +2,7 @@
   font-family: 'Oswald', Arial, sans-serif;
 }
 
-/* Algemeen */
+
 body {
   font-family: 'Noto Sans', Arial, sans-serif;
   line-height: 1.6;
@@ -17,7 +17,7 @@ body {
   background-blend-mode: overlay;
 }
 
-/* Header en menu */
+
 .header-inner {
   display: flex;
   align-items: center;
@@ -43,7 +43,7 @@ body {
   text-align: center;
 }
 
-/* Menu onder de titel, gecentreerd */
+
 .menu {
   display: flex;
   justify-content: center;
@@ -53,26 +53,28 @@ body {
   font-size: 1.12rem;
 }
 
-/* Menu-links gestyled als gewone tekst */
+
 .menu a {
   color: #fff;
   text-decoration: none;
   font-family: inherit;
-  padding: 4px 2px;
+  padding: 8px 14px;            
+  border-radius: 6px;          
+  display: inline-block;        
+  transition: background-color .18s ease, color .18s ease, transform .08s ease;
   cursor: pointer;
-  transition: background 0.2s, color 0.2s;
-  border-radius: 4px;
-  font-weight: bold;
-  border: none;
-  outline: none;
-}
-.menu a.selected,
-.menu a:active {
-  background: #ff7a7a;
-  color: #fff;
 }
 
-/* Content */
+
+.menu a:hover,
+.menu a:focus {
+  background-color: #42c758;    
+  color: #ffffff;               
+  transform: translateY(-1px);  
+  outline: none;
+}
+
+
 .container {
   max-width: 850px;
   margin: 36px auto;
@@ -85,6 +87,7 @@ body {
   backdrop-filter: blur(3px);
   position: relative;
   z-index: 20;
+  padding: 18px;
 }
 
 .header-image {
@@ -131,9 +134,6 @@ a {
   text-decoration: none;
   font-weight: bold;
 }
-a:hover {
-  text-decoration: underline;
-}
 
 .scroll-box {
   width: 300px;
@@ -165,9 +165,6 @@ a:hover {
     max-width: 100%;
     flex: none;
     margin-bottom: 12px;
-  }
-  .container {
-    padding: 18px;
   }
   .Knight {
     width: 64px;
